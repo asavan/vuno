@@ -32,6 +32,7 @@ $topbar.appendChild($bysuit)
 $topbar.appendChild($fan)
 $topbar.appendChild($poker)
 $topbar.appendChild($sort)
+$topbar.appendChild($intro)
 
 var deck = Deck()
 
@@ -59,6 +60,10 @@ $fan.addEventListener('click', function () {
 })
 $flip.addEventListener('click', function () {
   deck.flip()
+})
+
+$intro.addEventListener('click', function () {
+    deck.intro()
 })
 $poker.addEventListener('click', function () {
   deck.queue(function (next) {
