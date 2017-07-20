@@ -7,7 +7,7 @@ var transform = prefix('transform')
 
 var translate = Deck.translate
 
-var $container = document.getElementById('container')
+var $container = document.getElementById('deck')
 var $topbar = document.getElementById('topbar')
 
 var $sort = document.createElement('button')

@@ -297,7 +297,7 @@ var Deck = (function () {
       var pos = {};
       var starttime = Date.now();
 
-      e.preventDefault();
+      // e.preventDefault();
 
       // get start coordinates and start listening window events
       if (e.type === 'mousedown') {
